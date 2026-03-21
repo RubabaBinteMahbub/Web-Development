@@ -1,0 +1,35 @@
+◼️ target attribute কী?
+👉 target ব্যবহার হয় মূলত <a> (link) বা <form> এ
+👉 এটা বলে কোথায় link/open হবে
+
+<a href="https://example.com" 
+target="_blank">Open</a>
+
+common values:
+_self → same tab (default)
+_blank → new tab
+_parent → parent frame
+_top → full window
+
+◼️ name attribute কী?
+👉 name দিয়ে একটা element কে একটা নাম দেওয়া হয়
+👉 এটা বিশেষ করে <iframe> বা <form> এর সাথে use হয়
+
+◼️ iframe + name example
+<iframe name="myFrame"></iframe>
+
+<a href="https://example.com" target="myFrame">
+Open in iframe
+</a>
+
+এখানে,
+name="myFrame" → iframe-এর নাম
+target="myFrame" → ওই iframe-এ link open হবে
+
+◼️ <iframe name="box" width="400" height="300"></iframe>
+
+<a href="https://example.com" target="box">
+Click me
+</a>
+
+link click করলে iframe এর ভিতরে page open হবে।
