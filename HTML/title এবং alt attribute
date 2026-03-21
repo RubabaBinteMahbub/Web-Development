@@ -1,0 +1,43 @@
+◼️ title আর alt এক জিনিস না, আর এক কাজও করে না।
+
+◼️ alt attribute কি?
+শুধু <img> tag এর জন্য ব্যবহার হয়
+<img src="cat.jpg" 
+alt="A cute cat">
+
+যে কাজে লাগে_
+ছবি load না হলে এই text দেখায়
+screen reader এটা পড়ে (accessibility)
+SEO তে help করে
+
+◼️ title attribute কি?
+অনেক tag-এই ব্যবহার করা যায় (যেমন <iframe>, <div>, <a>)
+<iframe src="https://example.com"
+title="Example Website"></iframe>
+
+
+1.mouse hover করলে tooltip দেখায়
+(hover tooltip - hover করলে যে info দেখায়)
+example,
+
+<button title="Click here to submit">Submit</button>
+Submit লেখা এর ওপর mouse রাখলে ছোট করে লেখা দেখাবে
+👉 "Click here to submit"।
+
+
+2.extra information দেয়
+
+◼️
+alt = image-এর বিকল্প (alternative) text
+title = extra info (hover করলে দেখা যায়)
+
+◼️ Example compare
+<img src="dog.jpg" 
+alt="A brown dog"
+title="This is a dog">
+
+এখানে,
+alt → image না থাকলে দেখাবে
+title → mouse রাখলে popup দেখাবে
+
+
