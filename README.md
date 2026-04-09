@@ -1,1 +1,1 @@
-<h2>✨Learning how to build my first ever gorgeous website.✨</h2>
+<h2>✨Learning to build my first ever gorgeous website.✨</h2>
